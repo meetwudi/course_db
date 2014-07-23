@@ -18,6 +18,8 @@ $ cd /Code
 $ git clone git@github.com:tjwudi/course_db.git
 ```
 
+如果无法clone，请按照[这个页面的指示添加ssh key](https://help.github.com/articles/generating-ssh-keys)。
+
 项目文件此时的位置是`/Code/course_db`。接下来，你可以对项目代码进行修改了。当你希望将你所编写的代码同步到服务器上时，执行下面的语句（每行一句）：
 
 ```bash
