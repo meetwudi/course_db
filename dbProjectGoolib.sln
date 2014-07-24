@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbProjectGoolib", "dbProjectGoolib\dbProjectGoolib.csproj", "{A538D9C0-31A2-4AA7-9B9A-571F12B72AAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A538D9C0-31A2-4AA7-9B9A-571F12B72AAC}.Debug|x86.ActiveCfg = Debug|x86
+		{A538D9C0-31A2-4AA7-9B9A-571F12B72AAC}.Debug|x86.Build.0 = Debug|x86
+		{A538D9C0-31A2-4AA7-9B9A-571F12B72AAC}.Release|x86.ActiveCfg = Release|x86
+		{A538D9C0-31A2-4AA7-9B9A-571F12B72AAC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
