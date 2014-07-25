@@ -54,6 +54,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DBConnection_q.cs" />
+    <Compile Include="DoubanAPI.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
