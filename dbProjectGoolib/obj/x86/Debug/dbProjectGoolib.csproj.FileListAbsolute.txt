@@ -1,0 +1,8 @@
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\bin\Debug\dbProjectGoolib.exe
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\bin\Debug\dbProjectGoolib.pdb
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Properties.Resources.resources
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.csproj.GenerateResource.Cache
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.exe
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.pdb
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.csprojResolveAssemblyReference.cache
+G:\my project\c#file\dbProjectGoolib\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Form1.resources
