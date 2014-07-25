@@ -16,6 +16,11 @@ namespace dbProjectGoolib
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new basic());
+            User user = new User();
+            Console.WriteLine(user.Login("qinyidan", "charles86223764"));
+            Console.WriteLine(user.Login("yushuai", "charles86223764"));
+            Console.WriteLine(user.Login("yushuai", "000000"));
+            Console.WriteLine(user.Login("huan", "000000"));
         }
     }
 }
