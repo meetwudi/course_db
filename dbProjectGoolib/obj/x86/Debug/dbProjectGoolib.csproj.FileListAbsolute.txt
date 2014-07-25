@@ -7,3 +7,4 @@ C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGooli
 C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.pdb
 C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Login.resources
 C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Register.resources
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.csprojResolveAssemblyReference.cache
