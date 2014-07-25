@@ -1,0 +1,9 @@
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.basic.resources
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Properties.Resources.resources
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.csproj.GenerateResource.Cache
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.exe
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.pdb
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.exe
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.pdb
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Login.resources
+C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Register.resources
