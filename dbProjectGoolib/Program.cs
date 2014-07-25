@@ -15,20 +15,20 @@ namespace dbProjectGoolib
         [STAThread]
         static void Main()
         {
-            string constr = "Data Source=10.60.42.214/Library;User Id=SCOTT;Password=googlecamp;";
-            OracleConnection oraCon = new OracleConnection(constr);
-            oraCon.Open();
-            string sqlCon = "select name from users";
-            OracleCommand oracmd = new OracleCommand(sqlCon, oraCon);
-            OracleDataReader reader = oracmd.ExecuteReader();
-            while (reader.Read())
-            {
-                Console.WriteLine(reader.GetString(0));
-            }
+            //string constr = "Data Source=10.60.42.214/Library;User Id=SCOTT;Password=googlecamp;";
+            //OracleConnection oraCon = new OracleConnection(constr);
+            //oraCon.Open();
+            //string sqlCon = "select name from users";
+            //OracleCommand oracmd = new OracleCommand(sqlCon, oraCon);
+            //OracleDataReader reader = oracmd.ExecuteReader();
+            //while (reader.Read())
+            //{
+            //    Console.WriteLine(reader.GetString(0));
+            //}
 
-             Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new basic());
+            Application.Run(new AdminBasic());
         }
     }
 }
