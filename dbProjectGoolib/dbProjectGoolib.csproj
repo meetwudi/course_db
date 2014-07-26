@@ -62,8 +62,6 @@
     <Compile Include="AdminBasic.Designer.cs">
       <DependentUpon>AdminBasic.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBConnection_q.cs" />
-    <Compile Include="DoubanAPI.cs" />
     <Compile Include="Initial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,7 +91,6 @@
     <Compile Include="UserBasic.Designer.cs">
       <DependentUpon>UserBasic.cs</DependentUpon>
     </Compile>
-    <Compile Include="User_q.cs" />
     <EmbeddedResource Include="Initial.resx">
       <DependentUpon>Initial.cs</DependentUpon>
     </EmbeddedResource>
