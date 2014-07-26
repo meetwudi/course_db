@@ -24,3 +24,4 @@ C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectG
 C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.csproj.GenerateResource.Cache
 C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.BookIndexAdminForm.resources
 C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.RecommendationAdminForm.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.ManageBookAdminForm.resources

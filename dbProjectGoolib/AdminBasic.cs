@@ -49,7 +49,9 @@ namespace dbProjectGoolib
 
         private void ManageBookAdmin_Click(object sender, EventArgs e)
         {
-
+            //管理书籍
+            ManageBookAdminForm manageBookAdminForm = new ManageBookAdminForm();
+            manageBookAdminForm.Show();
         }
 
         private void ManageUser_Click(object sender, EventArgs e)
