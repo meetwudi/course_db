@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
 namespace dbProjectGoolib
 {
-    public partial class Form1 : Form
+    public partial class Modify : dbProjectGoolib.UserBasic
     {
-        public Form1()
+        public Modify()
         {
             InitializeComponent();
+            base.ModifyUser.Enabled = false;
+
         }
 
+        private void Modify_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
