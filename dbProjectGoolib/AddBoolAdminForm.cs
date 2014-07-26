@@ -32,5 +32,10 @@ namespace dbProjectGoolib
                 //写入逻辑处理部分
             }
         }
+
+        private void AddBoolAdminForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

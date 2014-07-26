@@ -28,12 +28,16 @@ namespace dbProjectGoolib
 
         private void BookIndexAdmin_Click(object sender, EventArgs e)
         {
-
+            //书籍索引
+            BookIndexAdminForm bookIndexAdminForm = new BookIndexAdminForm();
+            bookIndexAdminForm.Show();
         }
 
         private void RecommendationAdmin_Click(object sender, EventArgs e)
         {
-
+            //查看推荐
+            RecommendationAdminForm recommendationAdminForm = new RecommendationAdminForm();
+            recommendationAdminForm.Show();
         }
 
         private void AddBookAdmin_Click(object sender, EventArgs e)

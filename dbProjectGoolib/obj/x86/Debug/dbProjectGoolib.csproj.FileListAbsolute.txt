@@ -10,3 +10,17 @@ C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.ex
 C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.pdb
 C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.exe
 C:\Users\yangchen\Desktop\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.pdb
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.exe.config
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.exe
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.pdb
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.exe
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\bin\Debug\dbProjectGoolib.pdb
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.AddBoolAdminForm.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.AdminBasic.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Initial.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Modify.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.Properties.Resources.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.UserBasic.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.csproj.GenerateResource.Cache
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.BookIndexAdminForm.resources
+C:\Users\EVA\Documents\GitHub\course_db\dbProjectGoolib\obj\x86\Debug\dbProjectGoolib.RecommendationAdminForm.resources

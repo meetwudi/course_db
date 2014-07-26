@@ -68,6 +68,8 @@
             this.Controls.Add(this.isbn_textBox);
             this.Controls.Add(this.isbn_label);
             this.Name = "AddBoolAdminForm";
+            this.Text = "AddBoolAdminForm";
+            this.Load += new System.EventHandler(this.AddBoolAdminForm_Load);
             this.Controls.SetChildIndex(this.isbn_label, 0);
             this.Controls.SetChildIndex(this.isbn_textBox, 0);
             this.Controls.SetChildIndex(this.confirm_btn, 0);

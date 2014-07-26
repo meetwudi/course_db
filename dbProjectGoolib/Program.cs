@@ -28,7 +28,9 @@ namespace dbProjectGoolib
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Initial());
+           // Application.Run(new Initial());
+            Application.Run(new AdminBasic());
+
         }
     }
 }

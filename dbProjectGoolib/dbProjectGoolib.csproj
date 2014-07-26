@@ -62,6 +62,12 @@
     <Compile Include="AdminBasic.Designer.cs">
       <DependentUpon>AdminBasic.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookIndexAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookIndexAdminForm.Designer.cs">
+      <DependentUpon>BookIndexAdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Initial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     <EmbeddedResource Include="AdminBasic.resx">
       <DependentUpon>AdminBasic.cs</DependentUpon>
     </EmbeddedResource>
+    <Compile Include="RecommendationAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecommendationAdminForm.Designer.cs">
+      <DependentUpon>RecommendationAdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="User_q.cs" />
     <Compile Include="UserBasic.cs">
       <SubType>Form</SubType>
@@ -91,6 +103,9 @@
     <Compile Include="UserBasic.Designer.cs">
       <DependentUpon>UserBasic.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BookIndexAdminForm.resx">
+      <DependentUpon>BookIndexAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Initial.resx">
       <DependentUpon>Initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +122,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RecommendationAdminForm.resx">
+      <DependentUpon>RecommendationAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserBasic.resx">
       <DependentUpon>UserBasic.cs</DependentUpon>
     </EmbeddedResource>
