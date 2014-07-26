@@ -56,7 +56,9 @@ namespace dbProjectGoolib
 
         private void ManageUser_Click(object sender, EventArgs e)
         {
-
+            //用户管理
+            ManageUserForm manageUserForm = new ManageUserForm();
+            manageUserForm.Show();
         }
 
     }
