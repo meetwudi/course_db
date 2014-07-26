@@ -64,6 +64,20 @@
     </Compile>
     <Compile Include="DBConnection_q.cs" />
     <Compile Include="DoubanAPI.cs" />
+    <Compile Include="Initial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Initial.Designer.cs">
+      <DependentUpon>Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify.Designer.cs">
+      <DependentUpon>Modify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection_q.cs" />
+    <Compile Include="DoubanAPI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddBoolAdminForm.resx">
@@ -73,6 +87,19 @@
       <DependentUpon>AdminBasic.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="User_q.cs" />
+    <Compile Include="UserBasic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBasic.Designer.cs">
+      <DependentUpon>UserBasic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_q.cs" />
+    <EmbeddedResource Include="Initial.resx">
+      <DependentUpon>Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify.resx">
+      <DependentUpon>Modify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,6 +110,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserBasic.resx">
+      <DependentUpon>UserBasic.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
