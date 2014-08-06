@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A538D9C0-31A2-4AA7-9B9A-571F12B72AAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dbProjectGoolib</RootNamespace>
+    <AssemblyName>dbProjectGoolib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.OracleClient">
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBookAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBookAdmin.designer.cs">
+      <DependentUpon>AddBookAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBasic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBasic.Designer.cs">
+      <DependentUpon>AdminBasic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBasicOperation.cs" />
+    <Compile Include="BookDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookDetail.Designer.cs">
+      <DependentUpon>BookDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookIndexAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookIndexAdmin.designer.cs">
+      <DependentUpon>BookIndexAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookUtility.cs" />
+    <Compile Include="BorrowerUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowerUser.designer.cs">
+      <DependentUpon>BorrowerUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowHistoryUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowHistoryUser.Designer.cs">
+      <DependentUpon>BorrowHistoryUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowReturnAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowReturnAdmin.Designer.cs">
+      <DependentUpon>BorrowReturnAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommentsUtils.cs" />
+    <Compile Include="CreateRecommendUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateRecommendUser.Designer.cs">
+      <DependentUpon>CreateRecommendUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentBorrowUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentBorrowUser.Designer.cs">
+      <DependentUpon>CurrentBorrowUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookIndexUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookIndexUser.Designer.cs">
+      <DependentUpon>BookIndexUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.cs">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HandleRecommend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandleRecommend.designer.cs">
+      <DependentUpon>HandleRecommend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndexHistoryUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexHistoryUser.Designer.cs">
+      <DependentUpon>IndexHistoryUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Initial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Initial.Designer.cs">
+      <DependentUpon>Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log.Designer.cs">
+      <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageBookAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageBookAdmin.designer.cs">
+      <DependentUpon>ManageBookAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUserAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUserAdmin.designer.cs">
+      <DependentUpon>ManageUserAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyAdmin.designer.cs">
+      <DependentUpon>ModifyAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyUser.Designer.cs">
+      <DependentUpon>ModifyUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection_q.cs" />
+    <Compile Include="DoubanAPI.cs" />
+    <Compile Include="MyRecommendUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyRecommendUser.Designer.cs">
+      <DependentUpon>MyRecommendUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddBookAdmin.resx">
+      <DependentUpon>AddBookAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBasic.resx">
+      <DependentUpon>AdminBasic.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Recommendation.cs" />
+    <Compile Include="RecommendationAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecommendationAdmin.designer.cs">
+      <DependentUpon>RecommendationAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnBookUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBookUser.designer.cs">
+      <DependentUpon>ReturnBookUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchUtility.cs" />
+    <Compile Include="User_q.cs" />
+    <Compile Include="UserBasic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBasic.Designer.cs">
+      <DependentUpon>UserBasic.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BookDetail.resx">
+      <DependentUpon>BookDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookIndexAdmin.resx">
+      <DependentUpon>BookIndexAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowerUser.resx">
+      <DependentUpon>BorrowerUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowHistoryUser.resx">
+      <DependentUpon>BorrowHistoryUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowReturnAdmin.resx">
+      <DependentUpon>BorrowReturnAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateRecommendUser.resx">
+      <DependentUpon>CreateRecommendUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentBorrowUser.resx">
+      <DependentUpon>CurrentBorrowUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookIndexUser.resx">
+      <DependentUpon>BookIndexUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandleRecommend.resx">
+      <DependentUpon>HandleRecommend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexHistoryUser.resx">
+      <DependentUpon>IndexHistoryUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Initial.resx">
+      <DependentUpon>Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log.resx">
+      <DependentUpon>Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageBookAdmin.resx">
+      <DependentUpon>ManageBookAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUserAdmin.resx">
+      <DependentUpon>ManageUserAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyAdmin.resx">
+      <DependentUpon>ModifyAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyUser.resx">
+      <DependentUpon>ModifyUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyRecommendUser.resx">
+      <DependentUpon>MyRecommendUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RecommendationAdmin.resx">
+      <DependentUpon>RecommendationAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnBookUser.resx">
+      <DependentUpon>ReturnBookUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBasic.resx">
+      <DependentUpon>UserBasic.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
